@@ -1,0 +1,23 @@
+{
+    "name": "myproject/sujansarkar",
+    "description": "This is my first project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mdsujansarkar",
+            "email": "sujansarkar786@gmail.com"
+        }
+    ],
+    "autoload": {
+        "App\\Sum\\": "src/"
+    },
+    "autoload-dev": {
+        "App\\Test\\": "tests/"
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
